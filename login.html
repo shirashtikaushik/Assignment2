@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="login"> 
+    <h1>Login</h1>  
+    <br>
+    <form>
+    <table class="table">
+        <tr>
+            <th>
+                <label for="email">Email</label>
+            </th>
+            <td>
+                <input type="email" id="email" required placeholder="Enter email" >
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="password">Password</label>
+            </th>
+            <td>
+                <input type="password" id="password" required placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" minlength="8">
+            </td>
+        </tr>
+    </table> 
+    <br>
+    <div id="submit">
+        <button type="submit" value="Submit">Submit</button>  
+    </div>         
+    </form>
+    </div>
+</body>
+</html>

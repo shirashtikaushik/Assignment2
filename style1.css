@@ -1,0 +1,35 @@
+*{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqz9HUQRAYi7t6j5HF45JZoI3PHNZNP4HnfFnhqiyt4UR1b-F6-s3FXA6twSxeq_6xrOc&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login
+{
+    background-color: lightgreen;
+    box-sizing: border-box;
+    display:solid;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    border:1px solid black;
+    width:30%;
+    height:200px;
+}
+h1{
+    text-align: center;
+    background-color: pink;
+    overflow-x:auto;
+}
+table{
+    background-color: lightgreen;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+    
+}
+
+#submit
+{
+    text-align: center;
+    background-color: black;
+}
